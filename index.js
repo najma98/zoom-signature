@@ -9,7 +9,7 @@ const app = express()
 const port = process.env.PORT || 4000
 
 app.use(cors({
-    origin: ["https://sopra22-group11-thegame-client.herokuapp.com", "http://localhost"],
+    origin: ["https://sopra22-group11-thegame-client.herokuapp.com", "http://localhost", "http://localhost:3000"],
 }))
 
 app.options('*', cors())
